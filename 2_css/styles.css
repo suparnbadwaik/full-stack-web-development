@@ -1,0 +1,86 @@
+p {
+    color: Blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.bgRed {
+    width: 300px;
+    color: yellow;
+    background-color: red;
+}
+
+h4#italicText {
+    font-style: italic;
+}
+
+.blackbox {
+    background-color: black;
+    color: white;
+    /* define padding and margin values anti clock wise viz top right bottom let */
+    padding: 15px 10px 15px 50px;
+    margin:  15px 10px 15px 10px;
+
+    border: 5px red outset;
+
+    /* different values for each side */
+    /*
+    border-width: 15px 10px 15px 10px;
+    border-color: black green orange yellow;
+    */
+
+    /*
+    border-width: 10px 20px;
+    border-color: gray;
+    border-radius: 15px;
+    */
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-style: ridge;
+    border-width: 15px 10px 15px 10px;
+    border-color: royalblue orange;
+    background-color: seashell;
+    border-radius: 110px;
+}
+
+.bgImage {
+    background-image: url('../1_html/wall1.jpg');
+    background-size: 100%;
+    /*
+    background-size: 50% 50%;
+    background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    */
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    height: 300px;
+    border: 2px red solid;
+}
+
+#example1 {
+    border: 10px double black;
+    padding: 25px;
+    background: url('../1_html/wall1.jpg');
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+  }
+  
+#example2 {
+    border: 10px double black;
+    padding: 25px;
+    background: url('../1_html/wall1.jpg');
+    background-repeat: no-repeat;
+    background-origin: border-box;
+  }
+  
+#example3 {
+    border: 10px double black;
+    padding: 25px;
+    background: url('../1_html/wall1.jpg');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+  }

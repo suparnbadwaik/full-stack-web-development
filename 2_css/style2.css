@@ -1,0 +1,29 @@
+.bluebox {
+    background-color: blue;
+    width: auto;
+    height: 100px;
+}
+
+.redbox {
+    background-color: red;
+    width:auto;
+    height: 100px;
+}
+
+.yellowbox {
+    background-color: yellow;
+    width:auto;
+    height: 100px;
+}
+
+.bluebox:hover {
+    background-color: chocolate;
+}
+
+.redbox:hover {
+    background-color: darkgreen;
+}
+
+.yellowbox:hover {
+    background-color: coral;
+}
